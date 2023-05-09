@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/goit-test-task/static/css/main.82cc3297.css",
+    "main.js": "/goit-test-task/static/js/main.997b9415.js",
+    "static/media/cover.png": "/goit-test-task/static/media/cover.86562350dcaa714a1442.png",
+    "index.html": "/goit-test-task/index.html",
+    "main.82cc3297.css.map": "/goit-test-task/static/css/main.82cc3297.css.map",
+    "main.997b9415.js.map": "/goit-test-task/static/js/main.997b9415.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82cc3297.css",
+    "static/js/main.997b9415.js"
+  ]
+}
