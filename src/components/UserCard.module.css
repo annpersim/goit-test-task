@@ -1,0 +1,110 @@
+.card {
+  width: 380px;
+  height: 460px;
+  text-align: center;
+  background: linear-gradient(
+    114.99deg,
+    #471ca9 -0.99%,
+    #5736a3 54.28%,
+    #4b2a99 78.99%
+  );
+  box-shadow: -2.5777px 6.87386px 20.6216px rgba(0, 0, 0, 0.23);
+  border-radius: 20px;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.cover {
+  margin: 28px 0 18px 0;
+  padding-left: 36px;
+  padding-right: 36px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.divider {
+  width: 100%;
+  height: 8px;
+  background: #ebd8ff;
+  box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.06),
+    inset 0px -1.71846px 3.43693px #ae7be3, inset 0px 3.43693px 2.5777px #fbf8ff;
+  position: relative;
+  margin-bottom: 62px;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #ebd8ff;
+  box-shadow: 0px 4.39163px 4.39163px rgba(0, 0, 0, 0.06),
+    inset 0px -2.19582px 4.39163px #ae7be3,
+    inset 0px 4.39163px 3.29372px #fbf8ff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.data {
+  font-weight: 500;
+  font-size: 20px;
+  color: #ebd8ff;
+}
+.data :first-child {
+  margin-bottom: 18px;
+}
+
+.button {
+  font-family: inherit;
+  padding: 14px 28px;
+  background: #ebd8ff;
+  box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
+  border-radius: 10.3108px;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #373737;
+  border: 0;
+  margin-top: 26px;
+  width: 196px;
+  cursor: pointer;
+}
+
+.followed {
+  font-family: inherit;
+  padding: 14px 28px;
+  box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
+  border-radius: 10.3108px;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #373737;
+  border: 0;
+  margin-top: 26px;
+  width: 196px;
+  cursor: pointer;
+  background: #5cd3a8;
+}
+
+.loadmore {
+  font-family: inherit;
+  border-radius: 50%;
+  padding: 10px;
+  border: none;
+  color: #373737;
+  background: #ebd8ff;
+  text-transform: uppercase;
+}
+
+button:hover {
+  scale: 1.07;
+}
